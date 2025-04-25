@@ -1,0 +1,46 @@
+/* src/App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f8f8f8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  aside {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    max-width: 300px;
+  }
+  
+  aside img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  main {
+    padding: 10px 0;
+  }
+  
+  article {
+    background: #fff;
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  article h3 {
+    margin-top: 0;
+  }
+  
