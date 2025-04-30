@@ -1,9 +1,10 @@
-import React from 'react';
+// src/Components/Header.jsx
+import React from "react";
 
-function Header({ name }) {
+function Header({ title }) {
   return (
     <header>
-      <h1>{name}</h1>
+      <h1>{title}</h1>
     </header>
   );
 }

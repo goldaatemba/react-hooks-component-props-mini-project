@@ -1,19 +1,22 @@
-// src/App.jsx
-import React from 'react';
-import Header from './Components/Header.jsx';
-import About from './Components/About';
-import ArticleList from './Components/ArticleList';
-import blogData from './data/blog.jsx';
+import React from "react";
+import blogData from "./data/blog.js";
+import Header from "./Components/Header.jsx";
+import About from "./Components/About.jsx";
+import ArticleList from "./Components/ArticleList.jsx";
+import Article from "./Components/Article.jsx"
+console.log(blogData);
 
 function App() {
   return (
     <div className="App">
-      <Header name="Golda's Blog" />
+      {/* You're on your own from here! Follow the deliverables; test things out in
+      the browser as you write your code; and good luck! */}
+       <Header title="Underreacted" />
       <About 
-        image="https://via.placeholder.com/215"
-        about="Welcome to my personal blog where I share tech stuff and more!" 
+        image="data:image/png;base64,..."
+        about="A blog about learning React"
       />
-      <ArticleList posts={blogData} />
+      <ArticleList posts={blogData.posts} />
     </div>
   );
 }
